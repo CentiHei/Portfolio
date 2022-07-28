@@ -31,6 +31,25 @@ function handleGy() {
     cover.classList.remove("hidden");
     gyDesc.classList.add("hidden");
   }
+  if (!gyBtn.classList.contains("index-select")) {
+    gyBtn.classList.add("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
+  } else {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
+  }
 }
 
 function handleJm() {
@@ -47,6 +66,25 @@ function handleJm() {
   } else {
     cover.classList.remove("hidden");
     jmDesc.classList.add("hidden");
+  }
+  if (!jmBtn.classList.contains("index-select")) {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.add("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
+  } else {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
   }
 }
 
@@ -65,6 +103,25 @@ function handleCb() {
     cover.classList.remove("hidden");
     cbDesc.classList.add("hidden");
   }
+  if (!cbBtn.classList.contains("index-select")) {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.add("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
+  } else {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
+  }
 }
 
 function handleYs() {
@@ -81,6 +138,25 @@ function handleYs() {
   } else {
     cover.classList.remove("hidden");
     ysDesc.classList.add("hidden");
+  }
+  if (!ysBtn.classList.contains("index-select")) {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.add("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
+  } else {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
   }
 }
 
@@ -99,6 +175,25 @@ function handleNm() {
     cover.classList.remove("hidden");
     nmDesc.classList.add("hidden");
   }
+  if (!nmBtn.classList.contains("index-select")) {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.add("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
+  } else {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
+  }
 }
 
 function handleSm() {
@@ -115,6 +210,25 @@ function handleSm() {
   } else {
     cover.classList.remove("hidden");
     smDesc.classList.add("hidden");
+  }
+  if (!smBtn.classList.contains("index-select")) {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.add("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
+  } else {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
   }
 }
 
@@ -133,6 +247,25 @@ function handleHg() {
     cover.classList.remove("hidden");
     hgDesc.classList.add("hidden");
   }
+  if (!hgBtn.classList.contains("index-select")) {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.add("index-select");
+    hbBtn.classList.remove("index-select");
+  } else {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
+  }
 }
 
 function handleHb() {
@@ -149,6 +282,25 @@ function handleHb() {
   } else {
     cover.classList.remove("hidden");
     hbDesc.classList.add("hidden");
+  }
+  if (!hbBtn.classList.contains("index-select")) {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.add("index-select");
+  } else {
+    gyBtn.classList.remove("index-select");
+    jmBtn.classList.remove("index-select");
+    cbBtn.classList.remove("index-select");
+    ysBtn.classList.remove("index-select");
+    nmBtn.classList.remove("index-select");
+    smBtn.classList.remove("index-select");
+    hgBtn.classList.remove("index-select");
+    hbBtn.classList.remove("index-select");
   }
 }
 

@@ -1,0 +1,7 @@
+#index {
+  width: 10%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 130px;
+  text-align: center;
+}
