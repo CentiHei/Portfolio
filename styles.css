@@ -1,0 +1,52 @@
+@import "reset.css";
+@import "header.css";
+@import "footer.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+#index {
+  width: 10%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 130px;
+  text-align: center;
+}
+
+.desc {
+  right: 500px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 100px;
+  position: relative;
+  right: 150px;
+}
+
+#cover {
+  background-image: url("cover.jpg");
+  background-size: cover;
+}
+
+nav {
+  text-align: center;
+}
+
+li {
+  margin: 50px 0;
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}

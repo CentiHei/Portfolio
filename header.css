@@ -1,0 +1,49 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 200px 20px 200px;
+  font-size: 30px;
+}
+
+header > div {
+  position: relative;
+  width: 50%;
+  display: flex;
+  margin: 0 150px;
+}
+
+header > div:first-child {
+  flex-direction: column;
+}
+
+#h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header > div:last-child {
+  justify-content: flex-end;
+  font-size: 20px;
+  align-items: center;
+}
+
+header > div:last-child > a > div {
+  margin: 0 10px;
+  background-size: cover;
+  background-position: center;
+  height: 30px;
+  width: 30px;
+}
+
+header > div:last-child > a:nth-child(1) > div {
+  background-image: url("korea.png");
+}
+
+header > div:last-child > a:nth-child(2) > div {
+  background-image: url("america.png");
+}
+
+header > div:last-child > a:nth-child(3) > div {
+  background-image: url("china.png");
+}
