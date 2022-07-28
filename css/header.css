@@ -33,17 +33,17 @@ header > div:last-child > a > div {
   background-size: cover;
   background-position: center;
   height: 30px;
-  width: 30px;
+  width: 40px;
 }
 
 header > div:last-child > a:nth-child(1) > div {
-  background-image: url("korea.png");
+  background-image: url("../image/korea.png");
 }
 
 header > div:last-child > a:nth-child(2) > div {
-  background-image: url("america.png");
+  background-image: url("../image/america.png");
 }
 
 header > div:last-child > a:nth-child(3) > div {
-  background-image: url("china.png");
+  background-image: url("../image/china.png");
 }

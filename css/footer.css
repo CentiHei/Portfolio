@@ -14,6 +14,6 @@ footer > span {
 footer > a > div {
   height: 30px;
   width: 30px;
-  background-image: url("insta.png");
+  background-image: url("../image/insta.png");
   background-size: cover;
 }
