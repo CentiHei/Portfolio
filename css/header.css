@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
+
 header {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   margin: 0 200px;
+  margin-left: 180px;
   padding: 50px 0 20px 0;
   font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto Mono", monospace;
 }
 
 header > div {

@@ -1,0 +1,11 @@
+#background {
+  width: 1203.31px;
+  height: 620px;
+  background-image: url("../image/textcover.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  left: 414px;
+  top: 150px;
+  z-index: -1;
+}

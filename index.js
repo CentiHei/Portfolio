@@ -15,11 +15,13 @@ const hgDesc = document.getElementById("hgDesc");
 const hgBtn = document.querySelector("li:nth-child(7)");
 const hbDesc = document.getElementById("hbDesc");
 const hbBtn = document.querySelector("li:nth-child(8)");
+const back = document.querySelector("#background");
 
 function handleGy() {
   if (gyDesc.classList.contains("hidden")) {
     cover.classList.add("hidden");
     gyDesc.classList.remove("hidden");
+    back.classList.remove("hidden");
     jmDesc.classList.add("hidden");
     cbDesc.classList.add("hidden");
     ysDesc.classList.add("hidden");
@@ -30,6 +32,7 @@ function handleGy() {
   } else {
     cover.classList.remove("hidden");
     gyDesc.classList.add("hidden");
+    back.classList.add("hidden");
   }
   if (!gyBtn.classList.contains("index-select")) {
     gyBtn.classList.add("index-select");
@@ -57,6 +60,7 @@ function handleJm() {
     cover.classList.add("hidden");
     gyDesc.classList.add("hidden");
     jmDesc.classList.remove("hidden");
+    back.classList.remove("hidden");
     cbDesc.classList.add("hidden");
     ysDesc.classList.add("hidden");
     nmDesc.classList.add("hidden");
@@ -66,6 +70,7 @@ function handleJm() {
   } else {
     cover.classList.remove("hidden");
     jmDesc.classList.add("hidden");
+    back.classList.add("hidden");
   }
   if (!jmBtn.classList.contains("index-select")) {
     gyBtn.classList.remove("index-select");
@@ -94,6 +99,7 @@ function handleCb() {
     gyDesc.classList.add("hidden");
     jmDesc.classList.add("hidden");
     cbDesc.classList.remove("hidden");
+    back.classList.remove("hidden");
     ysDesc.classList.add("hidden");
     nmDesc.classList.add("hidden");
     smDesc.classList.add("hidden");
@@ -102,6 +108,7 @@ function handleCb() {
   } else {
     cover.classList.remove("hidden");
     cbDesc.classList.add("hidden");
+    back.classList.add("hidden");
   }
   if (!cbBtn.classList.contains("index-select")) {
     gyBtn.classList.remove("index-select");
@@ -131,6 +138,7 @@ function handleYs() {
     jmDesc.classList.add("hidden");
     cbDesc.classList.add("hidden");
     ysDesc.classList.remove("hidden");
+    back.classList.remove("hidden");
     nmDesc.classList.add("hidden");
     smDesc.classList.add("hidden");
     hgDesc.classList.add("hidden");
@@ -138,6 +146,7 @@ function handleYs() {
   } else {
     cover.classList.remove("hidden");
     ysDesc.classList.add("hidden");
+    back.classList.add("hidden");
   }
   if (!ysBtn.classList.contains("index-select")) {
     gyBtn.classList.remove("index-select");
@@ -168,12 +177,14 @@ function handleNm() {
     cbDesc.classList.add("hidden");
     ysDesc.classList.add("hidden");
     nmDesc.classList.remove("hidden");
+    back.classList.remove("hidden");
     smDesc.classList.add("hidden");
     hgDesc.classList.add("hidden");
     hbDesc.classList.add("hidden");
   } else {
     cover.classList.remove("hidden");
     nmDesc.classList.add("hidden");
+    back.classList.add("hidden");
   }
   if (!nmBtn.classList.contains("index-select")) {
     gyBtn.classList.remove("index-select");
@@ -205,11 +216,13 @@ function handleSm() {
     ysDesc.classList.add("hidden");
     nmDesc.classList.add("hidden");
     smDesc.classList.remove("hidden");
+    back.classList.remove("hidden");
     hgDesc.classList.add("hidden");
     hbDesc.classList.add("hidden");
   } else {
     cover.classList.remove("hidden");
     smDesc.classList.add("hidden");
+    back.classList.add("hidden");
   }
   if (!smBtn.classList.contains("index-select")) {
     gyBtn.classList.remove("index-select");
@@ -242,10 +255,12 @@ function handleHg() {
     nmDesc.classList.add("hidden");
     smDesc.classList.add("hidden");
     hgDesc.classList.remove("hidden");
+    back.classList.remove("hidden");
     hbDesc.classList.add("hidden");
   } else {
     cover.classList.remove("hidden");
     hgDesc.classList.add("hidden");
+    back.classList.add("hidden");
   }
   if (!hgBtn.classList.contains("index-select")) {
     gyBtn.classList.remove("index-select");
@@ -279,9 +294,11 @@ function handleHb() {
     smDesc.classList.add("hidden");
     hgDesc.classList.add("hidden");
     hbDesc.classList.remove("hidden");
+    back.classList.remove("hidden");
   } else {
     cover.classList.remove("hidden");
     hbDesc.classList.add("hidden");
+    back.classList.add("hidden");
   }
   if (!hbBtn.classList.contains("index-select")) {
     gyBtn.classList.remove("index-select");
